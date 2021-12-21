@@ -16,11 +16,11 @@
 </nav>
 
 <style>
-    ul {
-        display: flex;
-        list-style: none;
-    }
-    li {
-        margin: 10px;
-    }
+ul {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin: 10px;
+}
 </style>
