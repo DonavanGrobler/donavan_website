@@ -1,11 +1,11 @@
 <script>
     import "../styles/global.css";
     import Nav from "$lib/Nav.svelte";
+    import Header from "$lib/Header.svelte";
+
 </script> 
 
 <Nav />
-
-<header>My header goes here</header>
-
+<Header />
 
 <slot/>

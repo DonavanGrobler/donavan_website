@@ -2,5 +2,10 @@ body, html {
     padding: 0;
     margin: 0;
 
-    background-color: rgb(168, 140, 140);
+    background-color: rgb(209, 209, 209);
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
