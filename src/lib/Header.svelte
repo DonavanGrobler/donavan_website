@@ -10,7 +10,7 @@
 
 <style>
     header {
-        padding: 2rem;
+        padding: 1rem;
         width: 100vw;
         background-color: rgb(209, 209, 209);
         display: grid;
