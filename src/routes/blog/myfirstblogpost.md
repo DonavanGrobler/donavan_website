@@ -1,3 +1,7 @@
+---
+title: My First Post
+---
+
 # My first post
 ## h2 Heading
 ### h3 Heading
