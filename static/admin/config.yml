@@ -3,7 +3,7 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
   # This line should *not* be indented
-media_folder: "images/uploads" # Media files will be stored in the repo under images/uploads
+media_folder: "static/uploads" # Media files will be stored in the repo under images/uploads
 
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
@@ -16,3 +16,4 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Description", name: "description", widget: "markdown"}     
       - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Featured Image", name: "image", widget: "image"}
