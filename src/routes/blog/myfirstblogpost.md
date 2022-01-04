@@ -3,6 +3,7 @@ title: My First Post
 date: 2021-08-05 11:30:59 -0800
 description: This is a place holder for a short description. This would show in
   the list of blog posts.
+image: /uploads/csm_1920_720_renolit_alkorplan_natural_pools_cover_40885d2c84.jpg
 ---
 # My first post
 
@@ -85,8 +86,6 @@ Start numbering with offset:
 
 ## Code
 
-
-
 ``
 
 ```
@@ -149,7 +148,7 @@ Autoconverted link https://github.com/nodeca/pica (enable linkify to see)
 
 Like links, Images also have a footnote style syntax
 
-![Alt text](https://octodex.github.com/images/dojocat.jpg "The Dojocat")
+![Alt text](/uploads/csm_1920_720_renolit_alkorplan_natural_pools_cover_40885d2c84.jpg "The Dojocat")
 
 With a reference later in the document defining the URL location:
 
