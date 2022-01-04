@@ -37,8 +37,10 @@
             <p>
                 {metadata.description}
             </p>
-            <a href="{path}">Read More</a>
-        
+            <a href={`/blog/${path.replace(".md", "")}`}>
+                Read More
+            </a>
+            <img src="{metadata.image}" alt="Remember to add descripion">
         </article>
     {/each}
 </div>
