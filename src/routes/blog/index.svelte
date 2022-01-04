@@ -11,7 +11,7 @@
         );
     }
 
-    console.log('blog=', blog);
+    // console.log('blog=', blog);
 
     export const load = async() => {
         const posts = await Promise.all(blog);
@@ -25,23 +25,13 @@
 
 <script>
     export let posts;
-    console.log('posts=', posts);
+    import Article from "$lib/Article.svelte";
+    // console.log('posts=', posts);
 </script>
 
 <div>
-    {#each posts as {path, metadata}}
-        <article>
-            <h2>
-                {metadata.title}
-            </h2>
-            <p>
-                {metadata.description}
-            </p>
-            <a href={`/blog/${path.replace(".md", "")}`}>
-                Read More
-            </a>
-            <img src="{metadata.image}" alt="Remember to add descripion">
-        </article>
+    {#each posts as post}
+        <Article {post}/>
     {/each}
 </div>
 
