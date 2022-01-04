@@ -1,5 +1,8 @@
 ---
 title: My First Post
+description: |
+    This is a place holder for a short description
+date: 2021-08-05 11:30:59 -0800
 ---
 
 # My first post
