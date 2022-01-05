@@ -1,7 +1,7 @@
 ---
-title: My second Blog post
+title: Testing my second post.
 date: 2022-01-04T08:11:45.346Z
-description: This will be the summary content for lists
+description: Just an example of my second post.
 image: /uploads/wallp.jpg
 ---
 This is the actual body content of my first post
