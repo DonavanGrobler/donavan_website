@@ -5,18 +5,25 @@
         <a rel="stylesheet" href="mailto:donavangrobler2@gmail.com">
             Email Me
         </a>
+        
+        <a rel="stylesheet" href="https://twitter.com/donavangrobler">
+            Twitter
+        </a><a rel="stylesheet" href="https://www.instagram.com/donavangrobler/">
+            Instagram
+        </a>
     </div>
 </header>
 
 <style>
     header {
-        padding: 1rem;
+        padding: 2rem;
         width: 100vw;
         background-color: rgb(209, 209, 209);
         display: grid;
         grid-template-columns: 1fr 2fr;
     }
     a {
+        margin: 5px;
         background-color: black;
         color: white;
         text-transform: uppercase;
@@ -33,6 +40,7 @@
     }
     img{
         border-radius: 30px;
+        width: 12cm;
     }
 
 </style>

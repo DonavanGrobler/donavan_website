@@ -10,30 +10,39 @@
     </h2>
     <p>
         {post.metadata.description}
+            <a href={`/blog/${post.path.replace(".md", "")}`}>
+                Read More
+            </a>
     </p>
-    <a href={`/blog/${post.path.replace(".md", "")}`}>
-        Read More
-    </a>
+    
 </article>
 
 <style>
     article {
-        display: flex;
+        display: inline-block;
         grid-template-columns: 1fr 2fr;
         padding: 1rem;
+        margin: 5px;
  
     }
     img {
         border-radius: 2rem;
-        width: 150px;
-        height: 100px;
+        width: 200px;
+        height: 150px;
     }
     a {
-        margin: 0;
         display: flex;
         list-style: none;
         display: flex;
         align-items: center;
         justify-content: center;
+        font-size: 0.85rem;
     }
+    h2 {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 1.5rem;
+    }
+
 </style>

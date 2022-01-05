@@ -1,3 +1,5 @@
+<h1>Donavan's Blog Page</h1>
+
 <script context="module">
     const allPosts = import.meta.glob('./*.md');
 
@@ -35,6 +37,6 @@
     {/each}
 </div>
 
-<h1>Donavan's Blog Page</h1>
+
 
 
