@@ -1,13 +1,12 @@
 ---
-title: My First Post
+title: First Blog Post
 date: 2021-08-05 11:30:59 -0800
-description: This is a place holder for a short description. This would show in
-  the list of blog posts.
+description: Starting my first website.
 image: /uploads/csm_1920_720_renolit_alkorplan_natural_pools_cover_40885d2c84.jpg
 ---
 # My first post
 
-## h2 Heading
+## Coding Day 1
 
 ### h3 Heading
 
