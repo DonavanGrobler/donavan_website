@@ -1,5 +1,5 @@
 ---
-title: Testing my second post.
+title: Second post.
 date: 2022-01-04T08:11:45.346Z
 description: Just an example of my second post.
 image: /uploads/wallp.jpg
